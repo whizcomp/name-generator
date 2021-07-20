@@ -11,7 +11,6 @@ This project is an application that takes a user's birthday and calculates the d
 *select your gender.
 *click the submit button and view your results.
 
-#### By **Ian Mwenda**
 
 ## Technologies Used
 
