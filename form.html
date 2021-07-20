@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>form</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-auto">
+        <form action="" name="form">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" min="1912-04-01" required /><br />
+          <p id="date"></p>
+          <label for="gender">Gender</label><br />
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label><br />
+          <input type="radio" id="female" name="gender" value="female" required />
+          <label for="female">Female</label><br />
+          <p id="chooseGender"></p>
+          <button type="submit" onclick="akaneSubmit();" class="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <h4>Results:</h4>
+    <p id="results"></p>
+  </div>
+
+  <script src="akane.js"></script>
+</body>
+
+</html>
